@@ -30,68 +30,34 @@ h1 {
     /* background-position: fixed; */
 }
 
-@media only screen and (max-width: 700px) {
-    .img {
-        background-size: 700px;
-    }
-}
-
-@media only screen and (max-width: 950px) {
-    .img {
-        background-image: url('../assets/images/600.svg');
-        background-repeat:no-repeat;
-        background-size: 100% auto;
-    }
-
-    .judul {
-        margin-top: -350px;
-        font-family: 'Tinos', cursive !important;
-        color: #6D6E71 !important;
-        letter-spacing: 5px;
-        font-size: 15vw;
-        line-height: 3;
-    }
-
-    .dan {
-        font-family: 'Parisienne', cursive !important;
-        color: #6D6E71 !important;
-        font-size: 45px;
-        line-height: 1;
-    }
-
-    .title {
-        font-family: 'Parisienne', cursive !important;
-        color: #6D6E71 !important;
-        font-size: 70px; 
-        line-height: 0.7;
-    }
+.judul {
+    margin-top: 120px;
+    font-family: 'Tinos', cursive !important;
+    color: #6D6E71 !important;
+    letter-spacing: 5px;
+    /* font-size: 25px; */
+    font-size: 1.72vw;
+    line-height: 3;
 }
 
 .title {
     font-family: 'Parisienne', cursive !important;
     color: #6D6E71 !important;
-    font-size: 90px;
+    /* font-size: 90px; */
+    font-size: 6.4vw;
     line-height: 0.7;
 }
 
 .dan {
     font-family: 'Parisienne', cursive !important;
     color: #6D6E71 !important;
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 3.4vw;
     line-height: 1;
 }
 
-.judul {
-    /* margin-top: 120px; */
-    font-family: 'Tinos', cursive !important;
-    color: #6D6E71 !important;
-    letter-spacing: 5px;
-    font-size: 25px;
-    line-height: 3;
-}
-
 .namatamu {
-    /* font-family: 'Tinos', cursive !important; */
+    font-family: 'Tinos', cursive !important;
     color: #6D6E71 !important;
 }
 
@@ -164,5 +130,36 @@ h1 {
     100% {
         transform: translateY(1rem);
         opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .img {
+        background-image: url('../assets/images/600.svg');
+        background-repeat:no-repeat;
+        background-size: 100% auto;
+    }
+
+    .judul {
+        margin-top: -150px;
+        font-family: 'Tinos', cursive !important;
+        color: #6D6E71 !important;
+        letter-spacing: 5px;
+        font-size: 3.5vw;
+        line-height: 3;
+    }
+
+    .title {
+        font-family: 'Parisienne', cursive !important;
+        color: #6D6E71 !important;
+        font-size: 15vw; 
+        line-height: 0.7;
+    }
+
+    .dan {
+        font-family: 'Parisienne', cursive !important;
+        color: #6D6E71 !important;
+        font-size: 9vw;
+        line-height: 1;
     }
 }
