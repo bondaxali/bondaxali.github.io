@@ -764,7 +764,7 @@ window.addEventListener('load', () => {
         let div = document.createElement('div');
         div.classList.add('m-2');
         div.innerHTML = `
-        <p class="mt-0 mb-1 mx-0 p-0 namatamu">Kepada Yth Bapak/Ibu/Saudara/i</p>
+        <p class="mt-0 mb-1 mx-0 p-0 namatamu">Kepada Yth. Bapak/Ibu/Saudara/i</p>
         <h2 class="namatamu">${escapeHtml(name)}</h2>
         `;
 
